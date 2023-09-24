@@ -1,0 +1,143 @@
+@font-face {
+    font-family: popular;
+    src: url(Thinking_of_Betty.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(SignikaNegative-VariableFont_wght.ttf);
+}
+header{
+    background-color: rgb(24, 24, 24);
+    padding: 20px 0;
+}
+header img{
+    display: block;
+    width: 200px;
+    padding: 10px 100px;
+
+}
+
+nav li{
+    color: white;
+    display: inline-block;
+    padding: 0 20px;
+}
+nav a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: popular;
+}
+
+nav{
+    display: absolute;
+    top: 120px;
+    right: 100px;
+    font-size: 30px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 50px;  
+}
+
+article h1{
+    font-family: popular;
+    color: red;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 40px;
+}
+
+table{
+    font-family: texto;
+    width: 75%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.linhaInicial td{
+    background-color: blue;
+    color: white;
+}
+td{
+    border: 2px solid black;
+    align-items: center;
+    padding: 10px 0 ;
+    
+}
+
+.formulario{
+    text-align: center;
+}
+.formulario p{
+    font-family: popular;
+    margin: 20px 0 25px 0px ;
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+.formulario input{
+    font-family: texto;
+    margin: 20px 0 75px 0px ;
+    width: 80%;
+    height: 30px;
+    font-size: 80%;
+    padding: 0px 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer{
+    background-color: #BBBBBB;
+}
+
+.logoFinal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgRodape{
+    width: 300px;
+    padding: 50px 0 10px 0;
+}
+.pagar{
+    width: 350px;
+    height: 100px;
+    font-size: 28px;
+    padding: 10px;
+    background-color: rgb(120, 200, 250);
+}
+.MP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a img{
+    width: 75px;
+    padding: 0 5px 30px 0;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: texto;
+    padding: 0 0 50px 0;
+}
