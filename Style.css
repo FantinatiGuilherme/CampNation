@@ -1,0 +1,231 @@
+@font-face {
+    font-family: popular;
+    src: url(Thinking_of_Betty.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(SignikaNegative-VariableFont_wght.ttf);
+}
+strong{
+    font-weight: bold;
+}
+
+header{
+    background-color: rgb(24, 24, 24);
+    padding: 20px 0;
+}
+header img{
+    width: 200px;
+}
+
+nav li{
+    color: white;
+    display: inline-block;
+    padding: 0 20px;
+    font-family: popular;
+    font: 22px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    font-size: 30px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 50px;  
+}
+.primeiroAssunto{
+    background-color: #BBBBBB;
+    width: 100%;
+    padding-bottom: 5px;
+    font-family: texto;
+}
+
+article h1{
+    font-family: popular;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 40px;
+}
+
+article h2{
+    font-family: popular;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 40px;
+    
+}
+article h3{
+    font-family: popular;
+}
+
+.primeiroAssunto p{
+    background-color: white;
+    padding: 20px;
+    margin: 0px 15px 100px 15px;
+    border-radius: 20px ;
+    box-shadow: 20px 20px 50px black;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.segundoAssunto{
+    background-color:rgb(24, 24, 24) ;
+}
+.segundoAssunto h1{
+    color: white;
+}
+
+map{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.segundoAssunto iframe{
+    border-radius: 30px;
+    width: 1600px;
+    margin: 0px 30px;
+}
+
+.segundoAssunto p{
+    font-family: texto;
+    font-size: 20px;
+    color:  white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px 0 ;
+}
+
+.terceiroAssunto img{
+    display: flex ;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.quartoAssunto{
+    background-color: rgb(24, 24, 24);
+    
+}
+
+.quartoAssunto h1{
+    color: white;
+}
+.quartoAssunto h2{
+    color: white;
+}
+.quartoAssunto ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.quartoAssunto li{
+    display: inline-block;
+    text-align: center;
+    width: 600px; 
+    color: white;
+    vertical-align: top;
+    margin: 1.5%; /*espaçamento externo*/
+    padding: 30px 20px; 
+    box-sizing: border-box;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+.quartoAssunto li:hover{
+    
+        border-color:  red;
+    
+}
+
+.quartoAssunto p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: texto;
+
+}
+.quartoAssunto img{
+    width: 50%;
+}
+
+.descricao{
+    font-size: 18px;
+    margin-top: 20px;
+  
+  }
+
+  .preço{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top:20px ;
+  }
+
+  .quartoAssunto input{
+    width: 30px;
+    margin: 0 0 0 10px;
+  }
+
+
+footer{
+    background-color: #BBBBBB;
+}
+
+.logoFinal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgRodape{
+    width: 300px;
+    padding: 50px 0 10px 0;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a img{
+    width: 75px;
+    padding: 0 5px 30px 0;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: texto;
+    padding: 0 0 50px 0;
+}
